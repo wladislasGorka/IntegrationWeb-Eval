@@ -88,7 +88,7 @@
                     Avec un service de livraison à vélo, nous réduisons notre empreinte carbone pour offrir un mode de consommation plus <strong>respectueux de l'environnement</strong>.
                     Manger bien tout en prenant soin de la planète, c'est possible avec <strong>Eco EATS</strong>.</p> 
                 <!-- Doit renvoyer vers une page de commande         -->
-                <button class="button has-background-success-40 ml-4">Commandez !</button>
+                <button class="button has-background-success-40 ml-4">Commander !</button>
             </div>
         </header>
         
@@ -367,8 +367,18 @@
                 </section>
             </section>
 
-            <section id="contact" class="block" aria-label="Contact">
-
+            <section id="contact" class="block p-4" aria-label="Contact">
+                <h1 class="title is-3">Formulaire de contact</h1>
+                <form name="contact" method="post">
+                    <input class="" type="text" name="nom" placeholder="Nom *" pattern="^[a-zA-Z]+(-|'){0,1}[a-zA-Z]+$" required><br>
+                    <input class="" type="text" name="prenom" placeholder="Prenom *" pattern="^[a-zA-Z]+(-|'){0,1}[a-zA-Z]+$" required><br>
+                    <input class="" type="email" name="email" placeholder="Email *" pattern="^(\w)+((\.){0,1}(\w)+)*@(\w)+\.(\w)+$" required><br>
+                    <input class="" type="text" name="adresse" placeholder="Adresse *"><br>
+                    <input class="" type="tel" name="telephone" placeholder="Telephone *" pattern="^[0-9]{10}$"><br>
+                    <textarea class="" name="comment" cols="40" rows="5" placeholder="Commentaire"></textarea><br>
+                    <input class="" type="submit" name="soumettre"></submit>
+                    <p class="content is-small">* Champs Obligatoire</p>
+                </form>
             </section>
         </main>
     
