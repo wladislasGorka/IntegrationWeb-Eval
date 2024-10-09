@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="site internet, Eco EATS, Bio, livraison, repas à domicile" />
     <link rel="stylesheet" href="css/bulma.min.css">
     <title>Eco EATS</title>
 </head>
@@ -359,14 +360,14 @@
             </section>
 
             <!-- Formulaires, inscription et contact-->
-            <section class="block mb-6">
+            <section class="block columns is-3 mb-6">
                 <!-- Formulaire d'inscription -->
-                <section class="box p-4" aria-label="Contact">
+                <section class="box column is-5 is-offset-1 mb-0 p-4" aria-label="Contact">
                     <h3 class="title is-4">Formulaire d'inscription</h3>
                     <h6 class="subtitle is-6">Recevez votre premier repas!</h6>
-                    <form name="inscription" method="post">
+                    <form class="columns is-multiline" name="inscription" method="post">
                         <!-- Champ identifiant -->
-                        <section class="field" aria-label="champ identifiant">
+                        <section class="field column is-half mb-0" aria-label="champ identifiant">
                             <label class="label">Identifiant *</label>
                             <section class="control has-icons-left has-icons-right">
                                 <input class="input is-success" type="text" placeholder="Votre Pseudo" value="" pattern="^[\w]+(-|'){0,1}[\w]+$">
@@ -377,7 +378,7 @@
                             </section>                    
                         </section>
                         <!-- Champ mail -->
-                        <section class="field" aria-label="champ email">
+                        <section class="field column is-half mb-0" aria-label="champ email">
                             <label class="label">Email *</label>
                             <section class="control has-icons-left has-icons-right">
                                 <input class="input is-success" type="email" placeholder="Votre Email" value="">
@@ -387,18 +388,19 @@
                             </section>                    
                         </section>
                         <!-- bouton submit -->
-                        <input class="button is-success has-background-success-35 has-text-success-35-invert" type="submit" name="soumettre" value="S'inscrire">
-                        <p class="help">* Champs Obligatoire</p>
+                         <section class="column is-on-quarter">
+                            <input class="button is-success has-background-success-35 has-text-success-35-invert" type="submit" name="soumettre" value="S'inscrire">
+                            <p class="help">* Champs Obligatoire</p>
+                        </section>
                     </form>
                 </section>
-
                 <!-- Formulaire de contact -->            
-                <section class="box p-4" aria-label="Contact">
+                <section class="box column is-5 ml-2 p-4" aria-label="Contact">
                     <h3 class="title is-4">Formulaire de contact</h3>
                     <h6 class="subtitle is-6">Un commentaire? Une question?</h6>
-                    <form name="contact" method="post">
+                    <form class="columns is-multiline" name="contact" method="post">
                         <!-- Champ nom -->
-                        <section class="field" aria-label="champ nom">
+                        <section class="field column is-half mb-0" aria-label="champ nom">
                             <label class="label">Nom</label>
                             <section class="control has-icons-left has-icons-right">
                                 <input class="input is-success" type="text" placeholder="Votre nom" value="" pattern="^[a-zA-Z]+(-|'){0,1}[a-zA-Z]+$">                                
@@ -408,7 +410,7 @@
                             </section>                    
                         </section>
                         <!-- Champ prénom -->
-                        <section class="field" aria-label="champ prenom">
+                        <section class="field column is-half mb-0" aria-label="champ prenom">
                             <label class="label">Prénom</label>
                             <section class="control has-icons-left has-icons-right">
                                 <input class="input is-success" type="text" placeholder="Votre prénom" value="" pattern="^[a-zA-Z]+(-|'){0,1}[a-zA-Z]+$">                                
@@ -418,7 +420,7 @@
                             </section>                    
                         </section>
                         <!-- Champ mail -->
-                        <section class="field" aria-label="champ email">
+                        <section class="field column is-full pt-0 mb-0" aria-label="champ email">
                             <label class="label">Email</label>
                             <section class="control has-icons-left has-icons-right">
                                 <input class="input is-success" type="email" placeholder="Votre email" value="">
@@ -428,15 +430,17 @@
                             </section>                    
                         </section>
                         <!-- Champ commentaire -->
-                        <section class="field">
+                        <section class="field column is-full pt-0">
                             <label class="label">Message</label>
                             <section class="control">
                                 <textarea class="textarea is-small has-fixed-size is-success" placeholder="Vos commentaires ou questions. Nous serons ravis de vous répondre!"></textarea>
                             </section>
                         </section>
                         <!-- bouton submit -->
-                        <input class="button is-success has-background-success-35 has-text-success-35-invert" type="submit" name="envoyer" value="Envoyer">
-                        <p class="help">* Champs Obligatoire</p>
+                        <section class="column is-on-quarter">
+                            <input class="button is-success has-background-success-35 has-text-success-35-invert" type="submit" name="envoyer" value="Envoyer">
+                            <p class="help">* Champs Obligatoire</p>
+                        </section>
                     </form>
                 </section>
             </section>
@@ -459,14 +463,14 @@
                 <p><a class="is-normal has-text-success-35" href="#">Nous rejoindre</a></p>
             </section>
             <!-- Mentions légales -->
-            <section class="cell has-background-dark p-2" aria-label="liens mentions légales">
+            <section class="cell has-background-dark p-4" aria-label="liens mentions légales">
                 <h6 class="title is-6 mb-1 has-text-success-35">Mentions Légales</h6>
                 <p><a class="is-normal has-text-success-35" href="#">Mentions légales</a></p>
                 <p><a class="is-normal has-text-success-35" href="#">Confidentialité</a></p>
                 <p><a class="is-normal has-text-success-35" href="#">Cookies</a></p>
             </section>
             <!-- Aides -->
-            <section class="cell has-background-dark p-2" aria-label="liens aides">
+            <section class="cell has-background-dark p-4" aria-label="liens aides">
                 <h6 class="title is-6 mb-1 has-text-success-35">Aides</h6>
                 <p><a class="is-normal has-text-success-35" href="#">FAQ</a></p>
                 <p><a class="is-normal has-text-success-35" href="#">Nous contacter</a></p>
