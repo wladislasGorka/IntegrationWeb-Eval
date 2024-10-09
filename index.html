@@ -81,7 +81,7 @@
                 <img src="img/logoEcoEats.jpg" alt="logo">
             </div>
             <div class="column is-6">
-                <h1 class="title is-1 ml-4">ECO EATS</h1>
+                <h1 class="title is-1 mt-4 ml-4">ECO EATS</h1>
                 <h2 class="subtitle is-3 ml-4">Repas Eco, livraisons Eco</h2>
                 <p class="content has-text-justified mx-3">Chez <strong>Eco EATS</strong>, nous réinventons la livraison de repas en mettant l'écologie au coeur de chaque étapes.
                     Nous proposons des plats cuisinés à partir de <strong>produits locaux, bio, et de saison</strong>, livrés dans des emballages réutilisables ou compostables.
@@ -89,12 +89,12 @@
                     Manger bien tout en prenant soin de la planète, c'est possible avec <strong>Eco EATS</strong>.</p> 
                 <!-- Doit renvoyer vers une page de commande         -->
                 <button class="button has-background-success-40 ml-4">Commander !</button>
-            </div>
+            </div>            
         </header>
         
         <main>
             <!-- Repas, 6 card dans une grid -->
-            <section id="repas" class="block grid is-col-min-11" aria-label="Menu">
+            <section id="repas" class="block mb-6 grid is-col-min-11" aria-label="Menu">
                 <!-- Les produits sont construit avec les cards -->
                 
                 <!-- Bowl -->
@@ -319,10 +319,13 @@
                         </footer>
                     </div>
                 </article>
+
+                <!-- ancre vers guide, placée ici pour compenser la marge caché par navbar -->
+                <section id="guide"></section>
             </section>
 
             <!-- Comment ca marche, fixed-grid-->
-            <section id="guide" class="block has-background-success-35 has-text-success-35-invert p-4" aria-label="Guide">
+            <section class="block mb-6 has-background-success-35 has-text-success-35-invert p-4" aria-label="Guide">
                 <header>
                     <h2 class="title is-1 has-text-success-35-invert my-4">Comment ça marche?</h2>
                 </header>
@@ -351,10 +354,12 @@
                         </section>
                     </section>
                 </section>
+                <!-- ancre vers formulaire, placée ici pour compenser la marge caché par navbar -->
+                <section id="contact"></section>
             </section>
 
             <!-- Formulaires, inscription et contact-->
-            <section id="contact" class="block mb-6">
+            <section class="block mb-6">
                 <!-- Formulaire d'inscription -->
                 <section class="box p-4" aria-label="Contact">
                     <h3 class="title is-4">Formulaire d'inscription</h3>
