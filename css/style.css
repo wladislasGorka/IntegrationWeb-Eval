@@ -1,0 +1,7 @@
+.contentProduct{
+    display: none;
+}
+
+.card:hover .contentProduct{
+    display:block;
+}
