@@ -3,5 +3,5 @@
 }
 
 .card:hover .contentProduct{
-    display:inherit;
+    display:block;
 }
