@@ -13,7 +13,7 @@
     <div class="navbar-brand">
         <a class="navbar-item" href="#">
             <img src="img/logoEcoEats.jpg" alt="logo Eco Eats" width="25" height="25">
-            <p class="content has-text-success-35">Eco EATS</p>
+            <p class="content has-text-success-35"><strong>Eco EATS</strong></p>
         </a>
         
         <!-- necessaire pour le 'burger' menu -->
@@ -29,10 +29,10 @@
         Cacher dans le 'burger' sur petit ecran-->
     <div id="navbarMenu" class="navbar-menu">
         <div class="navbar-start">
-            <a class="navbar-item" href="#">Home</a>
-            <a class="navbar-item" href="#repas">Menu</a>
-            <a class="navbar-item" href="#guide">Guide</a>
-            <a class="navbar-item" href="#contact">Contact</a>
+            <a class="navbar-item has-text-success-35" href="#">| Home</a>
+            <a class="navbar-item has-text-success-35" href="#repas">| Menu</a>
+            <a class="navbar-item has-text-success-35" href="#guide">| Guide</a>
+            <a class="navbar-item has-text-success-35" href="#contact">| Contact</a>
         </div>
         
         <!-- Boutons de création de compte et de connexion -->
@@ -75,7 +75,7 @@
 <div class="columns is-1 mt-6">
     <div class="column is-10 is-offset-1">
 
-        <!-- Logo et descriptif de l'activité -->
+        <!-- En-tête, avec logo et descriptif de l'activité -->
         <header class="columns block">
             <div class="column is-6">
                 <img src="img/logoEcoEats.jpg" alt="logo">
@@ -93,11 +93,12 @@
         </header>
         
         <main>
+            <!-- Repas, 6 card dans une grid -->
             <section id="repas" class="block grid is-col-min-11" aria-label="Menu">
                 <!-- Les produits sont construit avec les cards -->
                 
                 <!-- Bowl -->
-                <article class="card cell">
+                <article class="card cell mb-0">
                     <!-- image de présentation du produit -->
                     <div class="card-image">
                         <figure class="image is-4by2">
@@ -137,7 +138,7 @@
                     </div>
                 </article>
                 <!-- Curry -->
-                <article class="card cell">
+                <article class="card cell mb-0">
                     <!-- image de présentation du produit -->
                     <div class="card-image">
                         <figure class="image is-4by2">
@@ -177,7 +178,7 @@
                     </div>
                 </article>
                 <!-- Risotto -->
-                <article class="card cell">
+                <article class="card cell mb-0">
                     <!-- image de présentation du produit -->
                     <div class="card-image">
                         <figure class="image is-4by2">
@@ -217,7 +218,7 @@
                     </div>
                 </article>
                 <!-- Salade -->
-                <article class="card cell">
+                <article class="card cell mb-0">
                     <!-- image de présentation du produit -->
                     <div class="card-image">
                         <figure class="image is-4by2">
@@ -257,7 +258,7 @@
                     </div>
                 </article>
                 <!-- Tarte -->
-                <article class="card cell">
+                <article class="card cell mb-0">
                     <!-- image de présentation du produit -->
                     <div class="card-image">
                         <figure class="image is-4by2">
@@ -297,7 +298,7 @@
                     </div>
                 </article>
                 <!-- Wrap -->
-                <article class="card cell">
+                <article class="card cell mb-0">
                     <!-- image de présentation du produit -->
                     <div class="card-image">
                         <figure class="image is-4by2">
@@ -337,28 +338,28 @@
                     </div>
                 </article>
             </section>
-
+            <!-- Comment ca marche, fixed-grid-->
             <section id="guide" class="block has-background-success-35 has-text-success-35-invert p-4" aria-label="Guide">
                 <header>
                     <h1 class="title is-1 has-text-success-35-invert my-4">Comment ça marche?</h1>
                 </header>
                 <section class="fixed-grid has-1-cols-mobile has-3-cols-tablet">
                     <section class="grid">
-                        <section class="box">
+                        <section class="box mb-0">
                             <h2 class="title is-3 has-text-success-35">Commande</h2>
                             <p class="content">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="64" width="72" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#197328" d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192 32 192c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512L430 512c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32l-85.6 0L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192l-232.6 0L253.3 35.1zM192 304l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16zm128 16l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
                             </p>
                             <p class="content has-text-justified">Sélectionnez vos plats préférés à partir de notre menu écologique, conçu avec des ingrédients locaux et bio. Commandez en quelques clics via notre site ou notre application mobile, et choisissez l'heure de livraison qui vous convient le mieux. Vous pouvez aussi personnaliser vos plats selon vos préférences alimentaires (vegan, sans gluten, etc.).</p>
                         </section>
-                        <section class="box">
+                        <section class="box mb-0">
                             <h2 class="title is-3 has-text-success-35">Livraison</h2>
                             <p class="content">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="64" width="72" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#197328" d="M312 32c-13.3 0-24 10.7-24 24s10.7 24 24 24l25.7 0 34.6 64-149.4 0-27.4-38C191 99.7 183.7 96 176 96l-56 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l43.7 0 22.1 30.7-26.6 53.1c-10-2.5-20.5-3.8-31.2-3.8C57.3 224 0 281.3 0 352s57.3 128 128 128c65.3 0 119.1-48.9 127-112l49 0c8.5 0 16.3-4.5 20.7-11.8l84.8-143.5 21.7 40.1C402.4 276.3 384 312 384 352c0 70.7 57.3 128 128 128s128-57.3 128-128s-57.3-128-128-128c-13.5 0-26.5 2.1-38.7 6L375.4 48.8C369.8 38.4 359 32 347.2 32L312 32zM458.6 303.7l32.3 59.7c6.3 11.7 20.9 16 32.5 9.7s16-20.9 9.7-32.5l-32.3-59.7c3.6-.6 7.4-.9 11.2-.9c39.8 0 72 32.2 72 72s-32.2 72-72 72s-72-32.2-72-72c0-18.6 7-35.5 18.6-48.3zM133.2 368l65 0c-7.3 32.1-36 56-70.2 56c-39.8 0-72-32.2-72-72s32.2-72 72-72c1.7 0 3.4 .1 5.1 .2l-24.2 48.5c-9 18.1 4.1 39.4 24.3 39.4zm33.7-48l50.7-101.3 72.9 101.2-.1 .1-123.5 0zm90.6-128l108.5 0L317 274.8 257.4 192z"/></svg>
                             </p>
                             <p class="content has-text-justified">Notre équipe de livreurs, utilisant exclusivement des vélos ou des véhicules électriques, vous apporte votre repas directement à votre porte. Nous utilisons des emballages réutilisables ou compostables pour réduire l'impact environnemental. La livraison est rapide, et vous êtes averti à chaque étape du processus.</p>
                         </section>
-                        <section class="box">
+                        <section class="box mb-0">
                             <h2 class="title is-3 has-text-success-35">Dégustation</h2>
                             <p class="content">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="64" width="72" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#197328" d="M416 0C400 0 288 32 288 176l0 112c0 35.3 28.7 64 64 64l32 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 0-112 0-208c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7L80 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-224.4c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16l0 134.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8L64 16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"/></svg>
@@ -368,9 +369,21 @@
                     </section>
                 </section>
             </section>
-
+            <!-- Formulaires -->
+            <!-- Formulaire d'inscription -->
             <section id="contact" class="block p-4" aria-label="Contact">
-                <h1 class="title is-3">Formulaire de contact</h1>
+                <h3 class="title is-4">Formulaire d'inscription</h3>
+                <h6 class="subtitle is-6">Recevez votre premier repas!</h6>
+                <form name="contact" method="post">
+                    <input class="" type="text" name="nom" placeholder="Identifiant" pattern="^[a-zA-Z]+(-|'){0,1}[a-zA-Z]+$" required><br>
+                    <input class="" type="email" name="email" placeholder="Email" pattern="^(\w)+((\.){0,1}(\w)+)*@(\w)+\.(\w)+$" required><br>
+                    <input class="" type="submit" name="soumettre" value="S'inscrire">
+                </form>
+            </section>
+            <!-- Formulaire de contact -->
+            <section id="contact" class="block p-4" aria-label="Contact">
+                <h3 class="title is-4">Formulaire de contact</h3>
+                <h6 class="subtitle is-6">Un commentaire?</h6>
                 <form name="contact" method="post">
                     <input class="" type="text" name="nom" placeholder="Nom *" pattern="^[a-zA-Z]+(-|'){0,1}[a-zA-Z]+$" required><br>
                     <input class="" type="text" name="prenom" placeholder="Prenom *" pattern="^[a-zA-Z]+(-|'){0,1}[a-zA-Z]+$" required><br>
@@ -385,28 +398,55 @@
         </main>
     
         <!-- Pied de page, liens utiles -->
-        <footer id="footer" class="footer has-background-success-35">
-            
-            <section class="is-inline-block" aria-label="liens internes">
-                <a class="button is-normal is-responsive" href="#">cgu</a>
-                <a class="button is-normal is-responsive" href="#">A propos</a>
+        <footer id="footer" class="footer has-background-success-35 fixed-grid has-1-cols-mobile has-3-cols-tablet">
+            <div class="grid">
+                <!-- Liens internes veers d'autre page du site -->
+                <section class="is-inline-block has-background-dark p-4" aria-label="liens internes">
+                    <h6 class="title is-6 mb-1 has-text-success-35">Découvrir Eco EATS</h6>
+                    <p><a class="is-normal has-text-success-35" href="#">Investisseurs</a></p>
+                    <p><a class="is-normal has-text-success-35" href="#">A propos</a></p>
+                    <p><a class="is-normal has-text-success-35" href="#">Voir plus</a></p>
+                    <p><a class="is-normal has-text-success-35" href="#">Espace press</a></p>
+                    <p><a class="is-normal has-text-success-35" href="#">Nous rejoindre</a></p>
+                </section>
+                <!-- Mentions légales -->
+                <section class="is-inline-block has-background-dark p-2" aria-label="liens mentions légales">
+                    <h6 class="title is-6 mb-1 has-text-success-35">Mentions Légales</h6>
+                    <p><a class="is-normal has-text-success-35" href="#">Mentions légales</a></p>
+                    <p><a class="is-normal has-text-success-35" href="#">Confidentialité</a></p>
+                    <p><a class="is-normal has-text-success-35" href="#">Cookies</a></p>
+                </section>
+                <!-- Aides -->
+                <section class="is-inline-block has-background-dark p-2" aria-label="liens aides">
+                    <h6 class="title is-6 mb-1 has-text-success-35">Aides</h6>
+                    <p><a class="is-normal has-text-success-35" href="#">FAQ</a></p>
+                    <p><a class="is-normal has-text-success-35" href="#">Nous contacter</a></p>
+                    <p><a class="is-normal has-text-success-35" href="#">Types de cuisine</a></p>
+                </section>
+            </div>
+            <!-- Réseaux et Copyright -->
+            <section>
+                <!-- Icon vers réseaux sociaux -->
+                <section class="is-inline-block is-pulled-left" aria-label="liens externes">
+                    <a href="#" class="icon mr-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                    </a>
+                    <a href="#" class="icon mr-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                    </a>
+                    <a href="#" class="icon mr-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                    </a>
+                    <a href="#" class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
+                    </a>
+                </section>   
+                <!-- Copyright -->
+                <section class="is-inline-block is-pulled-right">
+                    <p class="content has-text-black"><svg class="icon is-small" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM199.4 312.6c-31.2-31.2-31.2-81.9 0-113.1s81.9-31.2 113.1 0c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9c-50-50-131-50-181 0s-50 131 0 181s131 50 181 0c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0c-31.2 31.2-81.9 31.2-113.1 0z"/></svg> Eco EATS 2024</p>
+                </section>
             </section>
-
-            <!-- Icon vers réseaux sociaux -->
-            <section class="is-inline-block is-pulled-right" aria-label="liens externes">
-                <a href="#" class="icon mr-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-                </a>
-                <a href="#" class="icon mr-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
-                </a>
-                <a href="#" class="icon mr-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
-                </a>
-                <a href="#" class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
-                </a>
-            </section>            
+            
         </footer>
     </div>
 </div>
